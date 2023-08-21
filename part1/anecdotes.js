@@ -48,7 +48,7 @@ const App = () => {
     newVote[selected]+=1;
    setVote(newVote);
    // max votes
-   const maxVote=Math.max(...vote)
+   const maxVote=Math.max(...newVote)
    setMax(maxVote)
    // retrieve the index of the max votes
    
